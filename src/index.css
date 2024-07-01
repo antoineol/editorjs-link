@@ -126,15 +126,16 @@
 
   &.highlight {
     .link-tool {
-      &&__content {
+      &__content {
         flex-direction: column;
       }
 
-      &&__image {
-      flex-direction: column;
-      width: 100%;
-      height: auto;
-      aspect-ratio: 4/3;
+      &__image {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4/3;
+      }
     }
   }
 }
