@@ -125,7 +125,12 @@
   }
 
   &.highlight {
-    .link-tool__image {
+    .link-tool {
+      &&__content {
+        flex-direction: column;
+      }
+
+      &&__image {
       flex-direction: column;
       width: 100%;
       height: auto;
